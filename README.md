@@ -12,11 +12,11 @@ test event data for s3 file processing:
     {
       "s3": {
         "bucket": {
-          "name": "9514-loaaccelerator-prod",
-          "arn": "arn:aws:s3:::9514-loaaccelerator-prod"
+          "name": "bucket-prod",
+          "arn": "arn:aws:s3:::bucket-prod"
         },
         "object": {
-          "key": "PTOAccrued/MRDR.PeopleAccrualsPTO__20210219_010246.csv"
+          "key": "subfolder/file.csv"
         }
       }
     }
